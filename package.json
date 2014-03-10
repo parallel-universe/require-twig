@@ -1,0 +1,43 @@
+{
+  "name": "require-twig",
+  "description": "A twig loader that works with RequireJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/parallel-universe/require-twig",
+  "author": {
+    "name": "Basekit",
+    "email": "matthew.arnold@basekit.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/parallel-universe/require-twig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parallel-universe/require-twig/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/parallel-universe/require-twig/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/require-twig",
+  
+      "bin": "bin/require-twig",
+    
+    "engines": {
+      "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "chai": "~1.8.0",
+    "gulp": "~3.5.0",
+    "gulp-jshint": "~1.3.4",
+    "gulp-mocha": "~0.4.1",
+    "jshint-stylish": "~0.1.5"
+  },
+  "keywords": []
+}
